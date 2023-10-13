@@ -1,78 +1,92 @@
-
+/* Resetting margin for the entire page and setting top margin */
 body {
-    margin: 0;
-    margin-top: 50px;
-    font-family: sans-serif;  */
+    margin: 0;          /* Resetting default margin to zero */
+    margin-top: 50px;    /* Setting top margin to 50px */
+    font-family: sans-serif; /* Setting the font family for the entire page to sans-serif */
 }
 
+/* Styling for the header element */
 header {
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-    line-height: 50px;
-    background-color: #eee;
+    display: flex;         /* Using flexbox for layout */
+    position: fixed;       /* Fixing the header at the top of the page */
+    top: 0;                /* Positioning at the top of the page */
+    left: 0;               /* Positioning at the left of the page */
+    right: 0;              /* Positioning at the right of the page */
+    height: 50px;          /* Setting a fixed height of 50px */
+    line-height: 50px;     /* Aligning content vertically in the middle of the header */
+    background-color: #eee; /* Setting the background color to a light gray */
 }
 
+/* Styling for all elements inside the header */
 header * {
-    display: inline;
-    height: 50px;
+    display: inline;        /* Displaying elements inline (horizontally) */
+    height: 50px;           /* Setting a fixed height of 50px */
 }
 
+/* Styling for unordered list (ul) within the header */
 header ul {
-    padding: 0;
+    padding: 0;             /* Resetting the padding of the ul to zero */
 }
 
+/* Styling for list items (li) within the header */
 header li {
-    margin-left: 20px;
+    margin-left: 20px;      /* Adding left margin between list items */
 }
 
+/* Styling for sections (content blocks) on the page */
 section {
-    height: 100vh;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    height: 100vh;          /* Setting the section height to 100% of the viewport height */
+    border: 1px solid black; /* Adding a 1px solid black border */
+    display: flex;          /* Using flexbox for layout */
+    justify-content: center; /* Horizontally centering content within the section */
+    align-items: center;    /* Vertically centering content within the section */
+    text-align: center;     /* Centering text within the section */
 }
 
+/* Styling for an image within the hero section */
 #hero .profile-img {
-    width: 300px;
-    border-radius: 50%;
+    width: 300px;           /* Setting the image width to 300px */
+    border-radius: 50%;     /* Creating a circular image using border-radius */
 }
 
+/* Styling for the footer element */
 footer {
-    text-align: center;
-    padding: 50px;
+    text-align: center;     /* Centering text within the footer */
+    padding: 50px;           /* Adding padding to the footer */
 }
 
+/* Styling for the main heading within the hero section */
 #hero h1 {
-    font-size: 3em;
+    font-size: 3em;         /* Setting a larger font size for the main heading */
 }
 
+/* Styling for secondary headings within sections */
 section h2 {
-    font-size: 2.5em;
+    font-size: 2.5em;       /* Setting a large font size for secondary headings */
 }
 
+/* Styling for tertiary headings within sections */
 section h3 {
-    font-size: 1.5em;
+    font-size: 1.5em;       /* Setting a moderate font size for tertiary headings */
 }
 
+/* Styling for anchor links within the header */
 header a {
-    text-decoration: none;
-    color: black;
+    text-decoration: none;  /* Removing the default underline for links */
+    color: black;           /* Setting the link text color to black */
 }
 
+/* Styling for the hero section background image */
 #hero {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
 }
 
+/* Styling for the about section background image */
 #about {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/beach.jpg');
 }
 
+/* Styling for the contact section background image */
 #contact {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
 }

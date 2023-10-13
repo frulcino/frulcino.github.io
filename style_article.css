@@ -1,0 +1,61 @@
+/* Centering the article and adjusting text styles */
+article { /*defines article style class
+    max-width: 800px; /* Limits the maximum width of the article */
+    margin: 0 auto;  /* Horizontally centers the article within the parent container */
+    text-align: justify; /* Justifies the text for even spacing between words */
+    padding: 0px; /* Adds some spacing between the content and the edges of the article */
+    font-family: Arial, sans-serif; /* Sets the font family */
+    font-size: 16px; /* Sets the font size */
+    line-height: 1.6; /* Controls line spacing for better readability */
+    display: flex;
+  }
+  
+  /* Styling headings within the article */
+  article h1 {
+    font-size: 28px; /* Adjust the font size for the main heading */
+    color: #333; /* Set the text color for the main heading */
+    margin-bottom: 20px; /* Add spacing below the main heading */
+    padding: 20px;
+  }
+  
+  article h2 {
+    font-size: 24px; /* Adjust the font size for subheadings */
+    color: #666; /* Set the text color for subheadings */
+    margin-top: 20px; /* Add spacing above subheadings */
+    margin-bottom: 10px; /* Add spacing below subheadings */
+    padding: 20px;
+  }
+  
+  /* Styling paragraphs within the article */
+  article p {
+    margin-bottom: 10px; /* Add spacing below paragraphs */
+    padding: 20px;
+  }
+  
+  /* Styling links within the article */
+  article a {
+    color: #0073e6; /* Set the link color */
+    text-decoration: none; /* Remove the default underline */
+    padding: 20px;
+  }
+  
+  article a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    padding: 20px;
+  }
+  
+  /* Styling images within the article */
+ 
+  article img {
+    max-width: 100%; 
+    height: auto; 
+    margin: 0 0; 
+  }
+ 
+  #introduction {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
+    margin: 0;
+  }
+  /* Additional styling can be added based on specific needs */
+  
+  
