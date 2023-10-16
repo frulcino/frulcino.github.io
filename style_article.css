@@ -7,7 +7,6 @@ article { /*defines article style class
     font-family: Arial, sans-serif; /* Sets the font family */
     font-size: 16px; /* Sets the font size */
     line-height: 1.6; /* Controls line spacing for better readability */
-    display: flex;
   }
   
   /* Styling headings within the article */
@@ -25,6 +24,14 @@ article { /*defines article style class
     margin-bottom: 10px; /* Add spacing below subheadings */
     padding: 20px;
   }
+
+  article h3 {
+    font-size: 18px; /* Adjust the font size for subheadings */
+    color: #777; /* Set the text color for subheadings */
+    margin-top: 20px; /* Add spacing above subheadings */
+    margin-bottom: 10px; /* Add spacing below subheadings */
+    padding: 20px;
+  }
   
   /* Styling paragraphs within the article */
   article p {
@@ -36,7 +43,7 @@ article { /*defines article style class
   article a {
     color: #0073e6; /* Set the link color */
     text-decoration: none; /* Remove the default underline */
-    padding: 20px;
+    padding: 0px;
   }
   
   article a:hover {
@@ -55,6 +62,7 @@ article { /*defines article style class
   #introduction {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
     margin: 0;
+    background-repeat: repeat-y;
   }
   /* Additional styling can be added based on specific needs */
   
