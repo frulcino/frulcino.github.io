@@ -90,3 +90,11 @@ header a {
 #contact {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
 }
+
+.full-width-paragraph {
+    /* Your styling changes go here */
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    /* Add any other styles you want to modify */
+}
